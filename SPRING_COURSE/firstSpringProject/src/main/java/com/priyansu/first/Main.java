@@ -4,10 +4,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class FirstSpringProjectApplication {
+public class Main {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(FirstSpringProjectApplication.class, args);
+		ApplicationContext context = SpringApplication.run(Main.class, args);
 		
 		Alien obj = context.getBean(Alien.class);
 		

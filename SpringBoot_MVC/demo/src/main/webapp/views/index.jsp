@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Welcome Aliens
+	Welcome Aliens Ha ha ha ha ha ha haaaaaa...
 	
 	<form action="add">
 		Enter 1st number : <input type="text" name="num1"><br>

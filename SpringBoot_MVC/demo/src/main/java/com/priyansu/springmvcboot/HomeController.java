@@ -29,9 +29,9 @@ public class HomeController {
 	}
 	
 	@RequestMapping("addAlien")
-	public String addAlien(@ModelAttribute Alien a, Model m)
+	public String addAlien(@ModelAttribute("alien") Alien a)
 	{		
-		m.addAttribute("alien", a);
+//		m.addAttribute("alien", a);
 		return "result";
 	}
 }

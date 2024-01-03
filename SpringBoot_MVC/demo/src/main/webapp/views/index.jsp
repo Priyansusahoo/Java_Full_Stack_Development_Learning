@@ -9,9 +9,9 @@
 <body>
 	Welcome Aliens Ha ha ha ha ha ha haaaaaa...
 	
-	<form action="add">
-		Enter 1st number : <input type="text" name="num1"><br>
-		Enter 2nd number : <input type="text" name="num2"><br>
+	<form action="addAlien">
+		Enter your ID : <input type="text" name="aid"><br>
+		Enter your Name : <input type="text" name="aname"><br>
 		<input type="Submit">
 	</form>
 </body>

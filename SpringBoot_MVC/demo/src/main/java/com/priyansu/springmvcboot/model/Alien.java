@@ -5,6 +5,11 @@ public class Alien {
 	private String aname;
 	
 	
+	public Alien(int aid, String aname) {
+		super();
+		this.aid = aid;
+		this.aname = aname;
+	}
 	/**
 	 *  Getter and Setter for "aid" & "aname"
 	 */
